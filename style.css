@@ -1,0 +1,83 @@
+/* Gaya dasar untuk seluruh halaman */
+body {
+    background-color: #D2B48C; /* Warna Tan (krem lebih gelap) */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Container utama */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px; /* Atur jarak atas sesuai kebutuhan */
+}
+
+/* Gaya untuk gambar */
+.image {
+    width: 80%;
+    max-width: 500px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk bagian Kontak */
+.contact {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Gaya untuk ikon Instagram */
+.instagram-icon {
+    display: inline-block;
+    font-size: 60px; /* Ukuran ikon lebih besar */
+    color: #5b3c0e; /* Warna khas Instagram */
+    text-decoration: none;
+    margin-top: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.2);
+    color: #C13584; /* Warna lebih gelap saat hover */
+}
+
+/* Gaya untuk gambar yang lebih kecil */
+.small-image {
+    width: 60%; /* Gambar lebih kecil dibanding gambar lain */
+    max-width: 350px; /* Maksimum ukuran lebih kecil */
+}
+
+/* Gaya untuk tombol */
+.button {
+    display: inline-block;
+    background-color: #8B4513; /* Warna coklat tua */
+    color: white; /* Warna teks */
+    font-size: 20px; /* Ukuran font lebih besar */
+    padding: 15px 30px; /* Padding untuk ukuran lebih besar */
+    border-radius: 10px; /* Membuat tombol sedikit membulat */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-weight: bold;
+    transition: 0.3s ease; /* Efek transisi */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Efek hover */
+.button:hover {
+    background-color: #5b3c0e; /* Warna lebih gelap saat dihover */
+    transform: scale(1.1); /* Efek membesar */
+}
+
+/* Menengahkan tombol */
+.container {
+    text-align: center;
+}
+
